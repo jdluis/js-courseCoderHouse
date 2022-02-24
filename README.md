@@ -2,6 +2,7 @@
  Practicas con js
  
  Legend: seedling = Completed  || zap = In Progress
+ 
  CURSO DE JAVASCRIPT-ALUMNO: JOSE DANIEL D*****.
  
  FOLDERS:
