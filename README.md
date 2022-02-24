@@ -23,7 +23,7 @@
 
   DESAFIOS:
    
-     -1: Crear un algoritmo utilizando un ciclo: ⚡
+     -1: Crear un algoritmo utilizando un ciclo: ⚡ (https://github.com/jdluis/js-courseCoderHouse/tree/main/1DesafioComplementario)
      -2:
      -3:
      
