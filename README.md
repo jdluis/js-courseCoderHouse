@@ -3,7 +3,8 @@
  
  Legend: ✔ = Completed  || ⚡ = In Progress || Approved / Corrected: 💪
  
- CURSO DE JAVASCRIPT-ALUMNO: JOSE DANIEL D*****. 
+ CURSO JAVASCRIPT BY: https://coderhouse.com
+ ALUMNO: JOSE DANIEL D*****: https://jdluis.com/
  
  FOLDERS:
  
@@ -25,6 +26,8 @@
      -1: Crear un algoritmo utilizando un ciclo: ⚡
      -2:
      -3:
+     
+  ***************************************************************************************
    
    last update: 24-2.2022
    
