@@ -22,9 +22,7 @@ let propuesta;
         }
         cont = cont - 1;
     } while (cont >= 0) {
-
-    }
-   
-    if (propuesta != animal) {
         alert("Que pena, no lo has conseguido")
     }
+   
+   
