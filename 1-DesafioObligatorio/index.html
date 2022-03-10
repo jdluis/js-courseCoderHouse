@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Registro de Clientes-Promotor Eventos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Curso JavaScripts</h1>
+    <h2>Alumno</h2>
+    <p>Jose Daniel De Luis Ramirez</p>
+    <h3>Tarea</h3>
+    <p>Primer Desafio-Relacion con proyecto final</p>
+
+    <section>
+        <h2>Proyecto</h2>
+        <p>Registrador de Promotores y sus clientes</p>
+        <div>
+            <h3>Funcionalidades del Promotor</h3>
+            <ul>
+                <li>El promotor podra acceder con una clave a su area de promotor</li>
+                <li>Podra Logearse</li>
+                <li>Podra Deslogearse</li>
+                <li>Podra añadir un cliente</li>
+                <li>Podra añadir un estado al cliente: Pendiente, En tramite, Completado</li>
+                <li>Puede descargar la tabla y o enviar por correo</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Funcionalidades del Administrador</h3>
+            <ul>
+                <li>Podra registrarse y crear un evento para sus promotores</li>
+                <li>Podra Logearse</li>
+                <li>Podra Deslogearse</li>
+                <li>Podra añadir y eliminar un promotor</li>
+                <li>Podra modificar/eliminar/añadir a un cliente y sus estados</li>
+                <li>Podra modificar los datos de un promotor</li>
+                <li>Podra cambiar la constraseña de un promotor</li>
+                <li>Podra declarar que parametros tendra la tabla de su evento: Telefono, correo, nombre completo, Notas, Tipo de Fullpass etc..*Por ahora sera fijo</li>
+                <li>Puede descargar la tabla y o enviar por correo</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Estructura</h3>
+            <p>HTML: Landing Page con breve descripcion de la app, que incluira: Header, form de registro, form para añadir nuevos promotores, form para añadir clientes (este es el que trabare ahora mismo) y una tabla para mostrar los clientes registrados</p>
+        </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <div>
+        <form action="">
+            <input type="text" value="name">
+            <input type="email" value="email">
+        </form>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Evento</th>
+                <th>Estado</th>
+            </tr>
+
+            <tr>
+                <td>Pepe</td>
+                <td>Rodriguez</td>
+                <td>pepejuan@gmail.com</td>
+                <td>Guaguanco</td>
+                <td>Completado</td>
+            </tr>
+
+            <tr>
+                <td>Pepe</td>
+                <td>Rodriguez</td>
+                <td>pepejuan@gmail.com</td>
+                <td>Guaguanco</td>
+                <td>Completado</td>
+            </tr> 
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
