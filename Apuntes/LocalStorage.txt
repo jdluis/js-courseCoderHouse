@@ -1,0 +1,46 @@
+SessionStorage es un tipo de almacenamiento temporal y se borra cuando cerramos la sesion.
+LocalStorage es un tipo de almacenamiento que persiste hasta que lo borramos.
+
+sessionStorage, tiene mismos metodos pero como dijimos es temporal y no suele servir para mucho.
+
+localStorage.setItem(key,value); //Crea un nuevo dato
+    -Aqui podemos guardar objetos, arrays.. lo que queramos, el uso normal es un objeto.JSON
+localStorage.getItem(key); //Llama a un dato existente
+localStorage.removeItem(key); //Llama a un dato existente y lo borra
+localStorage.clear(); //Elimina todas las keys guardadas
+
+
+Si queremos usar un numero debemos recordar el parseInt:
+    localStorage.setItem('edad', 13); 
+
+    parseInt.localStorage.getItem(edad); 
+
+    /*cuando volvemos a obtener los datos se devuelven como un string por lo que si queremos operar con el numero, 
+    sumar edades o algo, debemos convertir a numero otra bvez con parseInt*/
+
+
+Guardar objetos en el LocalStorage
+
+Para guardar un objeto primero debemos convertirlo en un string json ya que el localstorage no permite guardar objetos de JavaSciprt como tal.
+
+Tendríamos que hacer algo así:
+localStorage.setItem("usuario", JSON.stringify(mi_objeto));
+
+Guardamos el elemento usuario cuyo valor es un objeto convertido a string.
+Sacar objetos del LocalStorage
+
+Para recuperar un objeto primero debemos convertirlo en un objeto de JavaScript json en lugar del string json que hay guardado por defecto.
+
+Haríamos esto:
+JSON.parse(localStorage.getItem("usuario"));
+
+Recordemos que:
+JSON.parse() es para parsear o convertir algo a un objeto JSON usable por JavaScript.
+JSON.stringify() es para crear un JSON string de un objeto o un array.
+Borrar o vaciar el localStorage
+
+Para eliminar un elemento del localStorage haremos:
+localStorage.removeItem("titulo");
+
+Para eliminar todas las variables guardadas en el localStorage haremos:
+localStorage.clear();

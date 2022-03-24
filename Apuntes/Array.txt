@@ -1,0 +1,130 @@
+Declaración de un Array.
+
+    Sintáxis:
+
+        variable + nombreArray = [contenidoArray]; 
+
+    Código real:
+
+        let miArray = ["nombreElemento0","nombreElemento1"]; 
+        const tuArray = [];                      --->//Array Vacios
+        var misArrays = [miArray[], tuArray[]];  --->//Array con Arrays dentro
+
+        let usuarios = [{nombre:"Pepe", apellido: "Acosta", edad: 26},      --->//Array con Objetos
+                        {nombre:"Juan", apellido: "Medina", edad: 29},
+                        {nombre:"Carlos", apellido: "Rodriguez", edad: 36},
+                        {nombre:"Laura", apellido: "Santana", edad: 21}];
+
+Recorrer un Array.
+
+    -For..of: La sentencia for...of permite recorrer un array ejecutando un bloque de código por cada elemento del objeto.
+        const productos = [{ id: 1, producto: "Arroz" },
+              { id: 2,  producto: "Fideo" },
+              { id: 3,  producto: "Pan" }];
+        for (const producto of productos) {
+            console.log(producto.id);
+            console.log(producto.producto);
+        }
+        
+Propiedades/Métodos.
+    
+    -lenght:
+       Descipción: No permite saber la longitud de un elemento, ya sea array o string.
+       Ejemplo:
+
+    -push:
+        Descipción: Agrega un elemento al final del array
+        Ejemplo:
+
+    -unshift:
+        Descipción: Agrega un elemento al principio del array
+        Ejemplo:
+
+    -shift:
+        Descipción: Elimina primer elemento del array
+        Ejemplo:
+
+    -pop:
+        Descipción: Elimina el ultimo elemento del array
+        Ejemplo:
+    
+    -reverse:
+        Descipción: 
+        Ejemplo:
+    
+    
+    -join:
+        Descipción: podemos generar un string con todos los elementos del array, separados por el valor que pasamos por parámetro:
+        Ejemplo: 
+                const nombres = ["Luis", "Ana", "Julia", “Juan”]
+                console.log( nombres.join(“, ”) ) 
+                // Luis, Ana, Julia
+                console.log( nombres.join(“*”) ) 
+                // Luis*Ana*Julia
+
+    -conact:
+        Descipción: combinar dos Arrays en un único Array 
+        Ejemplo: const mascotas = perros.concat(gatos) //perros es el primer array y fatos el segundo
+
+    -slice:
+        Descipción: permite eliminar uno o varios elementos de un array en cualquier posición. Funciona con 2 parámetros: el primero es el índice donde se ubica el método para trabajar, y el segundo es la cantidad de elementos a eliminar desde esa posición.
+        Ejemplo:
+
+    -splice:
+        Descipción: 
+        Ejemplo:
+    
+    -indexOf:
+      Descipción:  permite obtener el índice de un elemento en un array. Recibe por parámetro el elemento que queremos buscar en el array y, en caso de existir, nos retorna su índice. Si el elemento no existe nos retornará como valor: -1
+      Ejemplo:
+
+    -includes
+        Descripción: Permite saber si una variable contiene lo que escribimos dentro del metodo.
+        Ejemplo:  miArratUsuarios.nombre.includes("a")
+
+    -filter:
+        Descipción: Nos permite mostrar el elemento especifico que queremos
+        Ejemplo: en un array con objetos: miArratUsuarios.nombre
+
+    -map: 
+        Descipción: Crea un nuevo Array con la operacion o "orden que hemos especificado"
+        Ejemplo: let nuevoArrayDeNum = numeros.map((arrayNumInventado) => arrayNumInventado*100); ---> //Multiplica a cada valor del array 100, he usado una funcion flecha para recorrer el array 
+
+    -forEach:
+        Descipción: 
+        Ejemplo:
+
+    -find:
+        Descipción:  Nos devuelve un elemento, especificado en el parametro
+        Ejemplo:
+
+    -some: 
+        Descipción: Como el find pero nos devuelve un booleano
+        Ejemplo:
+
+    -reduce
+        Descipción: Ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor. En este caso suma valores.
+        Ejemplo:
+                 const array1 = [1, 2, 3, 4];
+                    const initialValue = 0;
+                    const sumWithInitial = array1.reduce(
+                      (acumulador, currentValue) => acumulador + currentValue,
+                      initialValue
+                    );
+
+    -sort
+        Descipción: Es un metodo destructivo, modifica el valor del array original. Ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. 
+        Sintaxis: arr.sort([compareFunction]);
+        Ejemplo:
+
+    -date
+        Descipción: 
+        Sintaxis: 
+        Ejemplo:
+        
+    -Match
+        Descipción: 
+        Sintaxis: 
+        Ejemplo:
+                   
+        

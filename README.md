@@ -23,11 +23,11 @@
 
   DESAFIOS:
    
-     -1: Crear un algoritmo utilizando un ciclo: ⚡ (https://github.com/jdluis/js-courseCoderHouse/tree/main/1DesafioComplementario)
-     -2:
-     -3:
+     -1: Crear un algoritmo utilizando un ciclo: ✔ (https://github.com/jdluis/js-courseCoderHouse/tree/main/1DesafioComplementario)
+     -2: Simulador interactivo  ✔ (https://github.com/jdluis/js-courseCoderHouse/tree/main/2-DesafioComplementario)
+     -3: Incorporar Arrays ⚡
      
   ***************************************************************************************
    
-   last update: 24-2-2022
+   last update: 16-3-2022
    
